@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GraphApp">
         <activity
+            android:name=".RomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_rome"
+            android:theme="@style/Theme.GraphApp.NoActionBar" />
+        <activity
+            android:name=".VeniceActivity"
+            android:exported="false"
+            android:label="@string/title_activity_venice"
+            android:theme="@style/Theme.GraphApp.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
