@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VeniceActivity">
+    tools:context=".PadovaActivity">
 
     <TextView
-        android:id="@+id/lblVenice"
+        android:id="@+id/lblPadova"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="179dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="175dp"
-        android:layout_marginBottom="697dp"
-        android:text="Venice"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="696dp"
+        android:text="Padova"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

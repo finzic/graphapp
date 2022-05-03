@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -19,8 +20,63 @@
         android:id="@+id/btnToRome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go To Rome"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="470dp" />
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="451dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="232dp"
+        android:text="Go to Rome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="127dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/UselessSwitch"
+        android:layout_width="139dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="317dp"
+        android:text="UselessSwitch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/lblStartNode"
+        android:layout_width="254dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="605dp"
+        android:text="Start Node"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
