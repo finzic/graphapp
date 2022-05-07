@@ -4,49 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PadovaActivity">
+    tools:context=".CavaionActivity">
 
     <TextView
-        android:id="@+id/lblPadova"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="177dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="696dp"
-        android:text="Padova"
-        android:textAlignment="center"
-        android:textSize="30sp"
+        android:id="@+id/lblCavaion"
+        android:layout_width="152dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="685dp"
+        android:text="Cavaion Town benvenuti"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnPadovaToVerona"
+        android:id="@+id/btnBackToVerona"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="160dp"
-        android:layout_marginBottom="537dp"
-        android:text="From Padova To Verona"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="499dp"
+        android:text="back to verona"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblPadova" />
+        app:layout_constraintTop_toBottomOf="@+id/lblCavaion" />
 
-    <Button
-        android:id="@+id/btnPadovaToAbano"
+    <Switch
+        android:id="@+id/switchCavaion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="171dp"
-        android:layout_marginTop="242dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="354dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="247dp"
-        android:text="from Padova to Abano"
+        android:layout_marginBottom="304dp"
+        android:text="Switch Cavaion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPadovaToVerona" />
+        app:layout_constraintTop_toBottomOf="@+id/lblCavaion" />
 </androidx.constraintlayout.widget.ConstraintLayout>

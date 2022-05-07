@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MojoAPp">
-        <activity android:name=".PadovaActivity"></activity>
+        <activity android:name=".MonteortoneActivity"></activity>
+        <activity android:name=".AbanoActivity" />
+        <activity android:name=".CavaionActivity" />
+        <activity android:name=".PadovaActivity" />
         <activity android:name=".VeronaActivity" />
         <activity android:name=".VeniceActivity" />
         <activity android:name=".RomeActivity" />

@@ -4,49 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PadovaActivity">
+    tools:context=".AbanoActivity">
 
     <TextView
-        android:id="@+id/lblPadova"
+        android:id="@+id/lblAbano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="177dp"
+        android:layout_marginStart="122dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="177dp"
+        android:layout_marginEnd="123dp"
         android:layout_marginBottom="696dp"
-        android:text="Padova"
-        android:textAlignment="center"
-        android:textSize="30sp"
+        android:text="Abano Terme Caput Mundi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnPadovaToVerona"
+        android:id="@+id/btnAbanoToPadova"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="160dp"
-        android:layout_marginBottom="537dp"
-        android:text="From Padova To Verona"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="320dp"
+        android:text="Back to Padova"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblPadova" />
+        app:layout_constraintTop_toBottomOf="@+id/lblAbano" />
 
     <Button
-        android:id="@+id/btnPadovaToAbano"
+        android:id="@+id/btnAbanoToMonteortone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="171dp"
-        android:layout_marginTop="242dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="328dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="247dp"
-        android:text="from Padova to Abano"
+        android:layout_marginBottom="320dp"
+        android:text="To Monteortone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPadovaToVerona" />
+        app:layout_constraintStart_toEndOf="@+id/btnAbanoToPadova"
+        app:layout_constraintTop_toBottomOf="@+id/lblAbano" />
 </androidx.constraintlayout.widget.ConstraintLayout>

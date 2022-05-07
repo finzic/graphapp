@@ -21,4 +21,90 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVeronaToVenice"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="624dp"
+        android:text="Back To Venice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblVerona" />
+
+    <Button
+        android:id="@+id/btnVeronaToCavaion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="125dp"
+        android:text="Trip To Cavaion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblVerona" />
+
+    <Switch
+        android:id="@+id/switchVerona1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="34dp"
+        android:text="Flaps"
+        app:layout_constraintBottom_toTopOf="@+id/switchVerona2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblVerona" />
+
+    <Switch
+        android:id="@+id/switchVerona2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="41dp"
+        android:text="Ailerons"
+        app:layout_constraintBottom_toTopOf="@+id/switchVerona3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchVerona1" />
+
+    <Switch
+        android:id="@+id/switchVerona3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="3dp"
+        android:text="Action"
+        app:layout_constraintBottom_toTopOf="@+id/switchVerona4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/switchVerona4"
+        app:layout_constraintTop_toBottomOf="@+id/switchVerona2" />
+
+    <Switch
+        android:id="@+id/switchVerona4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="183dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toTopOf="@+id/btnVeronaToCavaion"
+        app:layout_constraintEnd_toStartOf="@+id/switchVerona3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchVerona2"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

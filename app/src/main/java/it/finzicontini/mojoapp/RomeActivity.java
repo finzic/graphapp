@@ -2,7 +2,6 @@ package it.finzicontini.mojoapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,13 +22,15 @@ public class RomeActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent i = new Intent (RomeActivity.this, VeniceActivity.class);
                 startActivity(i);
+                finish();
             }
         });
-        btnToVerona=findViewById(R.id.btnToVerona);
+        btnToVerona=findViewById(R.id.btnVeniceToVerona);
         btnToVerona.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent i = new Intent (RomeActivity.this, VeronaActivity.class);
                 startActivity(i);
+                finish();
             }
         });
         btnToPadova=findViewById(R.id.btnToPadova);
@@ -37,6 +38,7 @@ public class RomeActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent i = new Intent (RomeActivity.this, PadovaActivity.class);
                 startActivity(i);
+                finish();
             }
         });
         btnBackToMain=findViewById(R.id.btnToMain);
@@ -44,6 +46,7 @@ public class RomeActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent i = new Intent (RomeActivity.this, MainActivity.class);
                 startActivity(i);
+                finish();
             }
         });
     }

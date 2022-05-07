@@ -20,11 +20,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         uselessSwitch = findViewById(R.id.UselessSwitch);
         uselessSwitch.setChecked(false);
-        btnToRome = findViewById(R.id.btnToRome);
+        btnToRome = findViewById(R.id.btnVeniceToRome);
         btnToRome.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,  RomeActivity.class);
                 startActivity(i);
+                finish();
             }
         });
         btnExit = findViewById(R.id.btnExit);
